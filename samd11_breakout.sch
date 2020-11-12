@@ -1,6 +1,5 @@
 EESchema Schematic File Version 4
-LIBS:samd11_breakout-cache
-EELAYER 26 0
+EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -15,7 +14,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Connector:USB_B_Micro J3
+L samd11_breakout-rescue:USB_B_Micro-Connector J3
 U 1 1 5D754819
 P 8700 3950
 F 0 "J3" H 8471 3941 50  0000 R CNN
@@ -70,7 +69,7 @@ F 3 "" H 5700 4750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Regulator_Linear:AP2127K-3.3 U1
+L samd11_breakout-rescue:AP2127K-3.3-Regulator_Linear U1
 U 1 1 5D754DB2
 P 7500 2450
 F 0 "U1" H 7500 2792 50  0000 C CNN
